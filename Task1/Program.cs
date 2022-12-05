@@ -5,6 +5,6 @@ Console.WriteLine("Напишите 1е число =");
  Console.WriteLine("Напишите 2е число =");
  int b = Convert.ToInt32(Console.ReadLine());
  if (a > b)
-  Console.WriteLine(a);
+  Console.WriteLine("Max= " + a);
   else
-  Console.WriteLine(b);
+  Console.WriteLine("Max= " + b);
